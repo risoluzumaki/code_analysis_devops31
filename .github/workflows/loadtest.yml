@@ -2,7 +2,7 @@ name: Load Test
 
 on:
   workflow_run:
-    workflows: ["CI"]   # ini nama workflow CI kamu
+    workflows: ["CI Pipeline"]  
     types:
       - completed
 
